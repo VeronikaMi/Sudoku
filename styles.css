@@ -1,0 +1,105 @@
+.hidden{
+  display: none;
+}
+
+body.dark{
+  background-color: #333;
+  color: #ddd;
+}
+
+header{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(255, 243, 194);
+}
+
+header #setup{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#setup > div{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#setup > div h3{
+  margin:0;
+}
+
+h1{
+  font-size: 40px;
+}
+
+#game{
+  display: flex;
+  justify-content: center;
+}
+
+#start-btn{
+  margin-top:20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  background-color: darkblue;
+  padding:10px 15px;
+  border-radius: 10%;
+  border:none;
+}
+
+#number-container > p{
+  font-size: 40pt;
+  text-align: center;
+  border:1px solid #000;
+  border-radius: 20%;
+  width: 60px;
+  height:60px;
+  margin:5px 0;
+  margin-left: 50px;
+}
+
+#board{
+  padding-top: 10px;
+  margin-top: 10px;
+  width: 600px;
+  height:600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.tile{
+  border:1px solid #000;
+  width: 60px;
+  height:60px;
+  text-align: center;
+  margin: 0px;
+  vertical-align: middle;
+  font-size: 40pt;
+}
+
+#stats{
+  text-align: center;
+}
+
+p.selected{
+  background-color: lightblue;
+}
+
+p.incorrect{
+  color: red;
+}
+
+.rightBorder{
+  border-right: 4px solid #000;
+}
+
+.bottomBorder{
+  border-bottom: 4px solid #000;
+}
+
+footer{
+  text-align: center;
+}
